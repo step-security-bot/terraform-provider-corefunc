@@ -8,157 +8,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 
 ## Unreleased
 
-[Compare: v1.1.1 → `HEAD`](https://github.com/northwood-labs/terraform-provider-corefunc/compare/v1.1.1..HEAD)
-
-### Bug Fixes
-
-* [`32dffbb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/32dffbb12f962543d923f2ea39000675d0ff8714): Resolve issues in the `go.sum` file.
-
-### Building and Dependencies
-
-* [`92c7065`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92c7065ba587b0851aa9352a1422ac7d2d68e8fa): **deps**: Bump `github.com/northwood-labs/terraform-provider-corefunc` ([#94](https://github.com/northwood-labs/terraform-provider-corefunc/issues/94)) (dependabot[bot])
-* [`96a741f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/96a741f1f36af211f80934694295736df522aed7): **deps**: Bump `crazy-max/ghaction-import-gpg` from 6.0.0 to 6.1.0 ([#97](https://github.com/northwood-labs/terraform-provider-corefunc/issues/97)) (dependabot[bot])
-* [`73ac9c5`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/73ac9c52d6275e2c7ea25b14a7677a6a91174cc2): **deps**: Bump `github/codeql-action` from 1.1.39 to 3.22.12 ([#95](https://github.com/northwood-labs/terraform-provider-corefunc/issues/95)) (dependabot[bot])
-* [`528dfcd`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/528dfcdd689857b97757f887c96a34ca4369d83c): **deps**: Bump `trufflesecurity/trufflehog` from 3.63.5 to 3.63.7 ([#96](https://github.com/northwood-labs/terraform-provider-corefunc/issues/96)) (dependabot[bot])
-* [`523b701`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/523b7012e3cc18de7879f30a3537136cb11a05a9): **deps**: Bump `github.com/chanced/caps` from 1.0.1 to 1.0.2 ([#98](https://github.com/northwood-labs/terraform-provider-corefunc/issues/98)) (dependabot[bot])
-* [`b311501`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b3115010b0e84d6adcc5d3a75610f1f07697b5a7): **deps**: Bump `github.com/chanced/caps` in /generator ([#99](https://github.com/northwood-labs/terraform-provider-corefunc/issues/99)) (dependabot[bot])
-* [`fc859eb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/fc859ebd974529d165cd107fd1f7ab33a55826e3): **deps**: Bump `actions/dependency-review-action` from 3.1.4 to 3.1.5 ([#100](https://github.com/northwood-labs/terraform-provider-corefunc/issues/100)) (dependabot[bot])
-* [`1ec1ac2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1ec1ac2488f25d39289247b882044a51335d0125): **deps**: Bump `github.com/cloudflare/circl` from 1.3.6 to 1.3.7 ([#101](https://github.com/northwood-labs/terraform-provider-corefunc/issues/101)) (dependabot[bot])
-* [`7f40e69`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7f40e69e02c6314e0728c776e3376492e9e1ccbe): **deps**: Bump `actions/go-dependency-submission` from 1.0.3 to 2.0.0 ([#105](https://github.com/northwood-labs/terraform-provider-corefunc/issues/105)) (dependabot[bot])
-* [`1317bab`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1317babb5379cd55528a2b932905acfbea9253de): **deps**: Bump `github.com/hashicorp/terraform-plugin-framework` ([#106](https://github.com/northwood-labs/terraform-provider-corefunc/issues/106)) (dependabot[bot])
-* [`8d22b24`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/8d22b24cd8cc52a6ebdabc524a61f2f8ee785627): **deps**: Bump `github.com/gruntwork-io/terratest` in /terratest ([#110](https://github.com/northwood-labs/terraform-provider-corefunc/issues/110)) (dependabot[bot])
-* [`104b541`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/104b541701e30608c39913de362524454f73a925): **deps**: Bump `github/codeql-action` from 3.22.12 to 3.23.1 ([#111](https://github.com/northwood-labs/terraform-provider-corefunc/issues/111)) (dependabot[bot])
-* [`0063c0c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0063c0ce2b277b5201d14ab7cf6862c9963a3443): **deps**: Bump `actions/dependency-review-action` from 3.1.5 to 4.0.0 ([#113](https://github.com/northwood-labs/terraform-provider-corefunc/issues/113)) (dependabot[bot])
-* [`2ca888e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2ca888ed39eae52a622fbe9049d6ecabdf2041f9): **deps**: Bump `actions/upload-artifact` from 4.0.0 to 4.3.0 ([#116](https://github.com/northwood-labs/terraform-provider-corefunc/issues/116)) (dependabot[bot])
-* [`1750875`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1750875ff6005e48b8d8405c2b45ee486b116fab): **deps**: Bump `trufflesecurity/trufflehog` from 3.63.7 to 3.64.0 ([#117](https://github.com/northwood-labs/terraform-provider-corefunc/issues/117)) (dependabot[bot])
-* [`0844a2e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0844a2eb4e5d6ee49b69c5a6c9b5a8d7bc510c4a): **deps**: Bump `github.com/hashicorp/terraform-plugin-docs` ([#118](https://github.com/northwood-labs/terraform-provider-corefunc/issues/118)) (dependabot[bot])
-* [`680a5d4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/680a5d4b3e437d1f21cc636995b924990cb1d6f3): **deps**: Bump `github/codeql-action` from 3.23.1 to 3.23.2 ([#120](https://github.com/northwood-labs/terraform-provider-corefunc/issues/120)) (dependabot[bot])
-* [`771756b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/771756b2138312dadefebb7df8a651b6b9f6f93c): **deps**: Bump `github.com/hashicorp/terraform-plugin-go` ([#121](https://github.com/northwood-labs/terraform-provider-corefunc/issues/121)) (dependabot[bot])
-* [`f35b806`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f35b806374aa31334d04075f0dd92e54e08b59ef): **deps**: Bump `github.com/hashicorp/terraform-plugin-sdk/v2` ([#123](https://github.com/northwood-labs/terraform-provider-corefunc/issues/123)) (dependabot[bot])
-* [`5396f2d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5396f2d698dfacaa6edc402d2c0e38b90fa34570): **deps**: Bump `step-security/harden-runner` from 2.6.1 to 2.7.0 ([#124](https://github.com/northwood-labs/terraform-provider-corefunc/issues/124)) (dependabot[bot])
-* [`d0df49d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d0df49d95113e5fbe29ba592d3f51717798472e6): **deps**: Bump `trufflesecurity/trufflehog` from 3.64.0 to 3.66.3 ([#126](https://github.com/northwood-labs/terraform-provider-corefunc/issues/126)) (dependabot[bot])
-
-### Documentation
-
-* [`c30e191`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c30e1912d5e273e8238703d3f7bc67a492017e66): Added information about compatibility testing.
-
-### Linting
-
-* [`f2c349f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f2c349f8c33e07c6fd2dcd6ac5e55825f9eaf53b): Ran the linter against the codebase after changes.
-
-### Testing
-
-* [`ea785fa`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ea785fa9dc992c8df52756501798240d63dacf91): Disable GoSec Sarif uploading until we know why it's failing.
-* [`d2198f3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d2198f3152d878657f9bb77b3ab81affd15dc45e): Add Terraform 1.7 to the test matrix.
-* [`73b83b1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/73b83b1982933903b8a4e512a2af06f38607c624): Enable workflow_dispatch to trigger tests manually.
-* [`4205631`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4205631e3b504b8448c31fde9a1603e1565128b1): Discovered issue in calling GoSec.
-* [`9486823`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9486823382c8c36f3895ffaeb58bfb325c1cf344): Discovered issue in calling GoSec.
-* [`472cb4c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/472cb4cb3ff48742d01a4d97a656e653d54dd835): Discovered issue in calling GoSec.
-* [`8686958`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/8686958d2d46f52438279d249c1455e4a038ea04): Disable GoSec workflow for the time being.
-* [`bf75f94`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bf75f945ffdbc872d138c9f6effaf29d64639b7a): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`6672a01`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6672a0174d74b913a5462e1ea5856c3e37c900b2): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`834be43`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/834be43f30a1e68d1da701887e11ee3db623d124): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`40b77b8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/40b77b88163ee6a711bd5770985f7a6fc5528ee4): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`e1e7b69`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e1e7b695b4fc564b4b56a5ece28d674df3bb86a0): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`9749f52`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9749f529e519a8f6978e40f55eeb3b1f4fdbd308): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`6949371`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6949371a0332b730dad43c48c529dfd23714310c): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`157efbe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/157efbe38e925b53deb4d5b729b650ecbfa014bc): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`9c09697`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9c096972030ce0d870d2df5100bab7bfb2d37a71): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`7ddd3e8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7ddd3e86d64d49528e310aa42456420b7f41d2a5): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`d7d77f2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d7d77f292f2f8c2b56fd35419d9d9e01ad774dec): Auto-update `AUTHORS.md` and CHANGELOG on commit.
-* [`2c282c8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2c282c8e863ab3527dcc605ac3a74ce3a28c026e): Work on adding automated OpenTofu testing.
-* [`a20e1bf`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a20e1bfaa2eea228abca619bc81840b4ee303ef1): Work on adding automated OpenTofu testing.
-* [`82583e7`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/82583e7bb9128268e702e65b5a9a90ed1f69b6f7): Work on adding automated OpenTofu testing.
-* [`5d9cd26`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5d9cd26136cebc600044b527874a97d6847ff641): Work on adding automated OpenTofu testing.
-* [`2758ec4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2758ec4de8a6cfa8c99859786f43e526c83fa843): Work on adding automated OpenTofu testing.
-* [`92c5e44`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92c5e440d9425fb83c11bf9ca403f2b85b74c6a5): Work on adding automated OpenTofu testing.
-* [`ca1650f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ca1650f2f2e9737a6635851bd19795e2d1b22908): Work on adding automated OpenTofu testing.
-* [`ae243c3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ae243c36dba8429a3606b223495d2f94ec5b82e9): Work on adding automated OpenTofu testing.
-* [`56501ef`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/56501ef5e2e26ec6ca6c1c06a1aa1eb7987cb280): Work on adding automated OpenTofu testing.
-* [`4a1e899`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4a1e899979c9a3593fd741484bdf1e8b3febfe4c): Work on adding automated OpenTofu testing.
-* [`a8b9724`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a8b97249bf45c2fc71fc6d32ffc6470a5b3dc5c3): Work on adding automated OpenTofu testing.
-* [`d374a8c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d374a8c42fa2e3c20f410762f7369d41088bad6e): Work on adding automated OpenTofu testing.
-* [`44c7648`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/44c76484bc48005d0484162a43bb5efa2170f724): Work on adding automated OpenTofu testing.
-* [`b5f2b8e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b5f2b8e0382900ef4a85f0e5e0052c066b9da624): Work on adding automated OpenTofu testing.
-* [`6be7398`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6be7398843e0a757ab4f0308a175843d8603c829): Work on adding automated OpenTofu testing.
-* [`66abdf2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/66abdf213d2f88f3ee0e3d44b26dd0b557b25005): Work on adding automated OpenTofu testing.
-## 1.1.1 — 2023-12-20
-
-[Compare: v1.1.0 → v1.1.1](https://github.com/northwood-labs/terraform-provider-corefunc/compare/v1.1.0..v1.1.1)
-
-### Building and Dependencies
-
-* [`0c431c2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0c431c21046806396bfe392f32fdfa5ba67743f3): Remove the restriction to pre-1.6 versions of Terraform in examples.
-* [`27b9e60`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/27b9e60796e0bfdc3b972cae11bca284c4cfc8d2): Updated Go dependencies.
-* [`bc39137`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bc391374137cb742fa719bd3790288cfa4a0c7cd): Pin the version of the GoSec action.
-* [`aa4e217`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa4e2178e06786ed2a0adb21e0095326854904fb): Pin the version of the Trufflehog action.
-* [`1d01f26`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1d01f2686604a931602bdd0880a640ac13d312ce): **deps**: Bump `golang.org/x/crypto` in /terratest ([#90](https://github.com/northwood-labs/terraform-provider-corefunc/issues/90)) (dependabot[bot])
-* [`2f77df9`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2f77df906e466c58ba3d4eb7d328684da4aab20e): **deps**: Bump `golang.org/x/crypto` from 0.3.0 to 0.17.0 in /generator ([#89](https://github.com/northwood-labs/terraform-provider-corefunc/issues/89)) (dependabot[bot])
-* [`07df7b9`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/07df7b911593bf1b65fbe060b005aae5b0e4faa6): **deps**: Bump `trufflesecurity/trufflehog` from 3.63.4 to 3.63.5 ([#91](https://github.com/northwood-labs/terraform-provider-corefunc/issues/91)) (dependabot[bot])
-* [`956339c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/956339c396e8b199a35d2f4eeff058dd11175be3): **deps**: Bump `golang.org/x/crypto` from 0.16.0 to 0.17.0 ([#88](https://github.com/northwood-labs/terraform-provider-corefunc/issues/88)) (dependabot[bot])
-* [`543eb0a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/543eb0ab95e3918f034c76a99099ff0f8fcdd490): Update the `go.sum` file.
-
-### Documentation
-
-* [`f3c07b2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f3c07b267eacc0cc4c3fabd81628112f8ea974f2): Updated copyright in all headers to include 2024.
-* [`1d00129`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1d0012982e3c1760735a4fa53a6603781bad6930): Updated the `README.md` for the Terratest tests.
-* [`1c2bc3c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1c2bc3c6f91b6326cd188320d8978972e2aa78dc): Updated the templates used by tfplugindocs.
-
-### Testing
-
-* [`e0915df`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e0915dfb90f9d2824be769dcc629501db99d1b8c): Added tests with Terratest to compare the Terraform provider with the Go library.
-* [`e5a810a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e5a810a8f9a5ffe2737928429df0be3a9a0a25c3): Make the GoSec scanning more robust.
-## 1.1.0 — 2023-12-18
-
-[Compare: v1.0.3 → v1.1.0](https://github.com/northwood-labs/terraform-provider-corefunc/compare/v1.0.3..v1.1.0)
-
-### Building and Dependencies
-
-* [`de4027c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/de4027ce4f48f09525b5f0ce4c4000ebd6c75de1): **deps**: Bump `github/codeql-action` from 2.22.7 to 2.22.8 ([#72](https://github.com/northwood-labs/terraform-provider-corefunc/issues/72)) (dependabot[bot])
-* [`98d8612`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/98d86121b239c9d15a1a3f429e90b07cf750399f): **deps**: Bump `actions/dependency-review-action` from 3.1.3 to 3.1.4 ([#74](https://github.com/northwood-labs/terraform-provider-corefunc/issues/74)) (dependabot[bot])
-* [`874d704`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/874d7046af06c46ed86ea818936e846188d612d6): **deps**: Bump `actions/setup-go` from 4.1.0 to 5.0.0 ([#75](https://github.com/northwood-labs/terraform-provider-corefunc/issues/75)) (dependabot[bot])
-* [`ca8c440`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ca8c4409fb32db9b83647e085839b73923ded5ec): **deps**: Bump `github/codeql-action` from 2.22.8 to 2.22.9 ([#76](https://github.com/northwood-labs/terraform-provider-corefunc/issues/76)) (dependabot[bot])
-* [`232c76e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/232c76e6ecaaa95e43e78182e02c259f2c8bb3b0): **deps**: Bump `github/codeql-action` from 2.22.9 to 3.22.11 ([#79](https://github.com/northwood-labs/terraform-provider-corefunc/issues/79)) (dependabot[bot])
-* [`415d3d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/415d3d3bf5a648cb3168ab1015059613d53046f4): **deps**: Bump `github.com/hashicorp/terraform-plugin-sdk/v2` ([#82](https://github.com/northwood-labs/terraform-provider-corefunc/issues/82)) (dependabot[bot])
-* [`78ec578`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/78ec578eb53836a96aaf93ae8b78cb69217941b8): **deps**: Bump `actions/upload-artifact` from 3.1.3 to 4.0.0 ([#80](https://github.com/northwood-labs/terraform-provider-corefunc/issues/80)) (dependabot[bot])
-
-### Documentation
-
-* [`3b7d8ca`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3b7d8cac9ddc38904505c5c9fbbd47fc15f54df5): Updated the `README.md`.
-* [`d41ad2e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d41ad2e1dafbfac54dacf3ac9d49b50032122089): Updated the Terraform documentation to include the lockfile.
-* [`00b7206`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/00b7206578b826912a4e7563d7d6caa2588432a3): Updated the CHANGELOG.
-* [`92a73de`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92a73de97de90a269afd08f4369ee4c5ad4aee59): Ran Markdownlint on the CHANGELOG.
-* [`6b7b0a3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6b7b0a375e9b17be41055a4f8a2c2dce6401b674): Added a note about base10 to `corefunc_int_leftpad`.
-* [`b83580e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b83580eeac1b986d8b0fd7d667da31356f7d8bd5): Regenerated the provider documentation.
-
-### Features
-
-* [`1135f94`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1135f9439b1966e3da849c2b9272f84eb89cfd36): Begin implementations of StrLeftPad and IntLeftPad.
-* [`92fbf6f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92fbf6f5e7f4fd17b1a33135a851143be1fd276e): Implemented the provider side of leftpad functions. ([#73](https://github.com/northwood-labs/terraform-provider-corefunc/issues/73))
-* [`c047ee1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c047ee16b8db3378bcb76dc430d258be9730568c): Added support for `corefunc.Homedir()` and `corefunc_homedir_get`. ([#77](https://github.com/northwood-labs/terraform-provider-corefunc/issues/77))
-* [`e3985ba`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e3985ba1d576e273a14fe930eefb81999a695c53): Added initial support for Homedir lookups.
-* [`290e1cc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/290e1cc1a5138e533935d1d8160d86edecc5b065): Added `corefunc_homedir_expand`.
-
-### Linting
-
-* [`89b97d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/89b97d37ea0495e56fefe181ef7f473680e73a0b): Updated the cache of dependency license information.
-
-### Refactor
-
-* [`2204ce8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2204ce86c8d36127cf84163559254549e819590f): Added wrapper corefunc functions for all caps functions.
-
-### Testing
-
-* [`57a7b85`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/57a7b85c17040f880dcaf6546c11cb9acd0a7615): Lookup and run fuzz tests programmatically.
-## 1.0.3 — 2023-11-21
-
-[Compare: v1.0.0 → v1.0.3](https://github.com/northwood-labs/terraform-provider-corefunc/compare/v1.0.0..v1.0.3)
-
-### Building and Dependencies
-
-* [`14759b8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/14759b8792c77530a0538d2fdb3ed2cacddd8d73): Bump `the` version number to 1.0.3. No changes from 1.0.0.
-## 1.0.0 — 2023-11-21
-
 ### Bug Fixes
 
 * [`425bcd0`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/425bcd0c60b57c99e8811bb91e29fa194904ca96): Fixed the last failing test for `EnvEnsure()`.
@@ -167,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`0ee237a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0ee237a94781673e3c34372048f55f5b8209c565): Allow Terraform 1.6+ after upgrading to terraform-plugin-framework v1.4.1.
 * [`3b0c194`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3b0c19493005d66c3baad7bdf5c28b3109d23b3c): Update `SECURITY.md` to point to GitHub's tool.
 * [`c7cba09`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c7cba0942031eab84b60e8fe3b52dfc94be908ea): Apply security best practices from StepSecurity. ([#32](https://github.com/northwood-labs/terraform-provider-corefunc/issues/32)) (StepSecurity Bot)
+* [`32dffbb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/32dffbb12f962543d923f2ea39000675d0ff8714): Resolve issues in the `go.sum` file.
 
 ### Building and Dependencies
 
@@ -218,6 +68,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b267f1e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b267f1ee74b109510ceb38ef0f0e9e9a49f88d59): Prepping a new test tag to trigger the build.
 * [`5d52625`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5d52625a44197115de7e90b6a2bf3b9c14f901d8): Prepping a new test tag to trigger the build.
 * [`dee279e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/dee279e1b75b230716ccc17517cd41c3b5d6e4e4): Prepping a new test tag to trigger the build.
+* [`14759b8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/14759b8792c77530a0538d2fdb3ed2cacddd8d73): Bump `the` version number to 1.0.3. No changes from 1.0.0.
+* [`de4027c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/de4027ce4f48f09525b5f0ce4c4000ebd6c75de1): **deps**: Bump `github/codeql-action` from 2.22.7 to 2.22.8 ([#72](https://github.com/northwood-labs/terraform-provider-corefunc/issues/72)) (dependabot[bot])
+* [`98d8612`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/98d86121b239c9d15a1a3f429e90b07cf750399f): **deps**: Bump `actions/dependency-review-action` from 3.1.3 to 3.1.4 ([#74](https://github.com/northwood-labs/terraform-provider-corefunc/issues/74)) (dependabot[bot])
+* [`874d704`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/874d7046af06c46ed86ea818936e846188d612d6): **deps**: Bump `actions/setup-go` from 4.1.0 to 5.0.0 ([#75](https://github.com/northwood-labs/terraform-provider-corefunc/issues/75)) (dependabot[bot])
+* [`ca8c440`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ca8c4409fb32db9b83647e085839b73923ded5ec): **deps**: Bump `github/codeql-action` from 2.22.8 to 2.22.9 ([#76](https://github.com/northwood-labs/terraform-provider-corefunc/issues/76)) (dependabot[bot])
+* [`232c76e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/232c76e6ecaaa95e43e78182e02c259f2c8bb3b0): **deps**: Bump `github/codeql-action` from 2.22.9 to 3.22.11 ([#79](https://github.com/northwood-labs/terraform-provider-corefunc/issues/79)) (dependabot[bot])
+* [`415d3d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/415d3d3bf5a648cb3168ab1015059613d53046f4): **deps**: Bump `github.com/hashicorp/terraform-plugin-sdk/v2` ([#82](https://github.com/northwood-labs/terraform-provider-corefunc/issues/82)) (dependabot[bot])
+* [`78ec578`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/78ec578eb53836a96aaf93ae8b78cb69217941b8): **deps**: Bump `actions/upload-artifact` from 3.1.3 to 4.0.0 ([#80](https://github.com/northwood-labs/terraform-provider-corefunc/issues/80)) (dependabot[bot])
+* [`0c431c2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0c431c21046806396bfe392f32fdfa5ba67743f3): Remove the restriction to pre-1.6 versions of Terraform in examples.
+* [`27b9e60`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/27b9e60796e0bfdc3b972cae11bca284c4cfc8d2): Updated Go dependencies.
+* [`bc39137`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bc391374137cb742fa719bd3790288cfa4a0c7cd): Pin the version of the GoSec action.
+* [`aa4e217`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/aa4e2178e06786ed2a0adb21e0095326854904fb): Pin the version of the Trufflehog action.
+* [`1d01f26`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1d01f2686604a931602bdd0880a640ac13d312ce): **deps**: Bump `golang.org/x/crypto` in /terratest ([#90](https://github.com/northwood-labs/terraform-provider-corefunc/issues/90)) (dependabot[bot])
+* [`2f77df9`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2f77df906e466c58ba3d4eb7d328684da4aab20e): **deps**: Bump `golang.org/x/crypto` from 0.3.0 to 0.17.0 in /generator ([#89](https://github.com/northwood-labs/terraform-provider-corefunc/issues/89)) (dependabot[bot])
+* [`07df7b9`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/07df7b911593bf1b65fbe060b005aae5b0e4faa6): **deps**: Bump `trufflesecurity/trufflehog` from 3.63.4 to 3.63.5 ([#91](https://github.com/northwood-labs/terraform-provider-corefunc/issues/91)) (dependabot[bot])
+* [`956339c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/956339c396e8b199a35d2f4eeff058dd11175be3): **deps**: Bump `golang.org/x/crypto` from 0.16.0 to 0.17.0 ([#88](https://github.com/northwood-labs/terraform-provider-corefunc/issues/88)) (dependabot[bot])
+* [`543eb0a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/543eb0ab95e3918f034c76a99099ff0f8fcdd490): Update the `go.sum` file.
+* [`92c7065`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92c7065ba587b0851aa9352a1422ac7d2d68e8fa): **deps**: Bump `github.com/northwood-labs/terraform-provider-corefunc` ([#94](https://github.com/northwood-labs/terraform-provider-corefunc/issues/94)) (dependabot[bot])
+* [`96a741f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/96a741f1f36af211f80934694295736df522aed7): **deps**: Bump `crazy-max/ghaction-import-gpg` from 6.0.0 to 6.1.0 ([#97](https://github.com/northwood-labs/terraform-provider-corefunc/issues/97)) (dependabot[bot])
+* [`73ac9c5`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/73ac9c52d6275e2c7ea25b14a7677a6a91174cc2): **deps**: Bump `github/codeql-action` from 1.1.39 to 3.22.12 ([#95](https://github.com/northwood-labs/terraform-provider-corefunc/issues/95)) (dependabot[bot])
+* [`528dfcd`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/528dfcdd689857b97757f887c96a34ca4369d83c): **deps**: Bump `trufflesecurity/trufflehog` from 3.63.5 to 3.63.7 ([#96](https://github.com/northwood-labs/terraform-provider-corefunc/issues/96)) (dependabot[bot])
+* [`523b701`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/523b7012e3cc18de7879f30a3537136cb11a05a9): **deps**: Bump `github.com/chanced/caps` from 1.0.1 to 1.0.2 ([#98](https://github.com/northwood-labs/terraform-provider-corefunc/issues/98)) (dependabot[bot])
+* [`b311501`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b3115010b0e84d6adcc5d3a75610f1f07697b5a7): **deps**: Bump `github.com/chanced/caps` in /generator ([#99](https://github.com/northwood-labs/terraform-provider-corefunc/issues/99)) (dependabot[bot])
+* [`fc859eb`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/fc859ebd974529d165cd107fd1f7ab33a55826e3): **deps**: Bump `actions/dependency-review-action` from 3.1.4 to 3.1.5 ([#100](https://github.com/northwood-labs/terraform-provider-corefunc/issues/100)) (dependabot[bot])
+* [`1ec1ac2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1ec1ac2488f25d39289247b882044a51335d0125): **deps**: Bump `github.com/cloudflare/circl` from 1.3.6 to 1.3.7 ([#101](https://github.com/northwood-labs/terraform-provider-corefunc/issues/101)) (dependabot[bot])
+* [`7f40e69`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7f40e69e02c6314e0728c776e3376492e9e1ccbe): **deps**: Bump `actions/go-dependency-submission` from 1.0.3 to 2.0.0 ([#105](https://github.com/northwood-labs/terraform-provider-corefunc/issues/105)) (dependabot[bot])
+* [`1317bab`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1317babb5379cd55528a2b932905acfbea9253de): **deps**: Bump `github.com/hashicorp/terraform-plugin-framework` ([#106](https://github.com/northwood-labs/terraform-provider-corefunc/issues/106)) (dependabot[bot])
+* [`8d22b24`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/8d22b24cd8cc52a6ebdabc524a61f2f8ee785627): **deps**: Bump `github.com/gruntwork-io/terratest` in /terratest ([#110](https://github.com/northwood-labs/terraform-provider-corefunc/issues/110)) (dependabot[bot])
+* [`104b541`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/104b541701e30608c39913de362524454f73a925): **deps**: Bump `github/codeql-action` from 3.22.12 to 3.23.1 ([#111](https://github.com/northwood-labs/terraform-provider-corefunc/issues/111)) (dependabot[bot])
+* [`0063c0c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0063c0ce2b277b5201d14ab7cf6862c9963a3443): **deps**: Bump `actions/dependency-review-action` from 3.1.5 to 4.0.0 ([#113](https://github.com/northwood-labs/terraform-provider-corefunc/issues/113)) (dependabot[bot])
+* [`2ca888e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2ca888ed39eae52a622fbe9049d6ecabdf2041f9): **deps**: Bump `actions/upload-artifact` from 4.0.0 to 4.3.0 ([#116](https://github.com/northwood-labs/terraform-provider-corefunc/issues/116)) (dependabot[bot])
+* [`1750875`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1750875ff6005e48b8d8405c2b45ee486b116fab): **deps**: Bump `trufflesecurity/trufflehog` from 3.63.7 to 3.64.0 ([#117](https://github.com/northwood-labs/terraform-provider-corefunc/issues/117)) (dependabot[bot])
+* [`0844a2e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0844a2eb4e5d6ee49b69c5a6c9b5a8d7bc510c4a): **deps**: Bump `github.com/hashicorp/terraform-plugin-docs` ([#118](https://github.com/northwood-labs/terraform-provider-corefunc/issues/118)) (dependabot[bot])
+* [`680a5d4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/680a5d4b3e437d1f21cc636995b924990cb1d6f3): **deps**: Bump `github/codeql-action` from 3.23.1 to 3.23.2 ([#120](https://github.com/northwood-labs/terraform-provider-corefunc/issues/120)) (dependabot[bot])
+* [`771756b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/771756b2138312dadefebb7df8a651b6b9f6f93c): **deps**: Bump `github.com/hashicorp/terraform-plugin-go` ([#121](https://github.com/northwood-labs/terraform-provider-corefunc/issues/121)) (dependabot[bot])
+* [`f35b806`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f35b806374aa31334d04075f0dd92e54e08b59ef): **deps**: Bump `github.com/hashicorp/terraform-plugin-sdk/v2` ([#123](https://github.com/northwood-labs/terraform-provider-corefunc/issues/123)) (dependabot[bot])
+* [`5396f2d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5396f2d698dfacaa6edc402d2c0e38b90fa34570): **deps**: Bump `step-security/harden-runner` from 2.6.1 to 2.7.0 ([#124](https://github.com/northwood-labs/terraform-provider-corefunc/issues/124)) (dependabot[bot])
+* [`d0df49d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d0df49d95113e5fbe29ba592d3f51717798472e6): **deps**: Bump `trufflesecurity/trufflehog` from 3.64.0 to 3.66.3 ([#126](https://github.com/northwood-labs/terraform-provider-corefunc/issues/126)) (dependabot[bot])
 
 ### Documentation
 
@@ -252,6 +140,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`1e7c19b`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1e7c19bbca8de371380a52d4ffcdcfa65786d7dd): Removing the Markdown version of the license.
 * [`0be7a78`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0be7a78e18bd718a1eee181d8050de988f4a65e4): Trying to get both `pkg.go.dev` and GitHub to understand the license.
 * [`21deae6`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/21deae652b7d6839c9c1069f019d3873308cf1da): Messing with the license again.
+* [`3b7d8ca`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3b7d8cac9ddc38904505c5c9fbbd47fc15f54df5): Updated the `README.md`.
+* [`d41ad2e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d41ad2e1dafbfac54dacf3ac9d49b50032122089): Updated the Terraform documentation to include the lockfile.
+* [`00b7206`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/00b7206578b826912a4e7563d7d6caa2588432a3): Updated the CHANGELOG.
+* [`92a73de`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92a73de97de90a269afd08f4369ee4c5ad4aee59): Ran Markdownlint on the CHANGELOG.
+* [`6b7b0a3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6b7b0a375e9b17be41055a4f8a2c2dce6401b674): Added a note about base10 to `corefunc_int_leftpad`.
+* [`b83580e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b83580eeac1b986d8b0fd7d667da31356f7d8bd5): Regenerated the provider documentation.
+* [`f3c07b2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f3c07b267eacc0cc4c3fabd81628112f8ea974f2): Updated copyright in all headers to include 2024.
+* [`1d00129`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1d0012982e3c1760735a4fa53a6603781bad6930): Updated the `README.md` for the Terratest tests.
+* [`1c2bc3c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1c2bc3c6f91b6326cd188320d8978972e2aa78dc): Updated the templates used by tfplugindocs.
+* [`c30e191`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c30e1912d5e273e8238703d3f7bc67a492017e66): Added information about compatibility testing.
 
 ### Features
 
@@ -276,6 +174,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`261aa0d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/261aa0dcab848277960a1a02e1231096d788d569): Update `feature.yml`
 * [`65fa14c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/65fa14cd32b098464d28704b8a3ba88b0b359b67): Added generation for binsize.
 * [`0e21531`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/0e21531d2ac18bfb0adfe36cb13e95f602dfca5d): Improve code coverage reporting.
+* [`1135f94`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/1135f9439b1966e3da849c2b9272f84eb89cfd36): Begin implementations of StrLeftPad and IntLeftPad.
+* [`92fbf6f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92fbf6f5e7f4fd17b1a33135a851143be1fd276e): Implemented the provider side of leftpad functions. ([#73](https://github.com/northwood-labs/terraform-provider-corefunc/issues/73))
+* [`c047ee1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/c047ee16b8db3378bcb76dc430d258be9730568c): Added support for `corefunc.Homedir()` and `corefunc_homedir_get`. ([#77](https://github.com/northwood-labs/terraform-provider-corefunc/issues/77))
+* [`e3985ba`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e3985ba1d576e273a14fe930eefb81999a695c53): Added initial support for Homedir lookups.
+* [`290e1cc`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/290e1cc1a5138e533935d1d8160d86edecc5b065): Added `corefunc_homedir_expand`.
 
 ### Linting
 
@@ -299,6 +202,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`480862d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/480862d2f01247acb8512d39f5b36f62315614be): Update PR review config.
 * [`e5e2328`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e5e2328833d15644869aa78be79d5223b9c00608): Move test running into CI.
 * [`f334dc4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f334dc40d54c7056ca371fb69b38a911d90b6300): Verified that all files adhere to .editorconfig.
+* [`89b97d3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/89b97d37ea0495e56fefe181ef7f473680e73a0b): Updated the cache of dependency license information.
+* [`f2c349f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f2c349f8c33e07c6fd2dcd6ac5e55825f9eaf53b): Ran the linter against the codebase after changes.
 
 ### Miscellaneous Tasks
 
@@ -319,6 +224,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`b946b69`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b946b693e5728b1cbd0d272485f2db880b2db6e5): Split the library code from the provider code.
 * [`df2690f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/df2690f01db54e17ae8bbcb547168e133d336303): **make**: Split pre-commit out from lint.
 * [`3c7a078`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/3c7a078b6376d8b9c76796e52949e3d7c445eb24): Remove line from Makefile; add it to GoReleaser later.
+* [`2204ce8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2204ce86c8d36127cf84163559254549e819590f): Added wrapper corefunc functions for all caps functions.
 
 ### Styling
 
@@ -335,3 +241,40 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), adheres t
 * [`d54db2d`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d54db2d14880d822348a9f098828755f38bf5adb): Manually install latest Go for govulncheck.
 * [`f965fbe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/f965fbe6a0246138cf8d80e50ea705a54ddde548): Manually install latest Go for govulncheck.
 * [`78966d5`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/78966d5edc0e3c57f7ab86827f8d3595b2442072): Allow `storage.googleapis.com:443` from GitHub Actions.
+* [`57a7b85`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/57a7b85c17040f880dcaf6546c11cb9acd0a7615): Lookup and run fuzz tests programmatically.
+* [`e0915df`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e0915dfb90f9d2824be769dcc629501db99d1b8c): Added tests with Terratest to compare the Terraform provider with the Go library.
+* [`e5a810a`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e5a810a8f9a5ffe2737928429df0be3a9a0a25c3): Make the GoSec scanning more robust.
+* [`ea785fa`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ea785fa9dc992c8df52756501798240d63dacf91): Disable GoSec Sarif uploading until we know why it's failing.
+* [`d2198f3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d2198f3152d878657f9bb77b3ab81affd15dc45e): Add Terraform 1.7 to the test matrix.
+* [`73b83b1`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/73b83b1982933903b8a4e512a2af06f38607c624): Enable workflow_dispatch to trigger tests manually.
+* [`4205631`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4205631e3b504b8448c31fde9a1603e1565128b1): Discovered issue in calling GoSec.
+* [`9486823`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9486823382c8c36f3895ffaeb58bfb325c1cf344): Discovered issue in calling GoSec.
+* [`472cb4c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/472cb4cb3ff48742d01a4d97a656e653d54dd835): Discovered issue in calling GoSec.
+* [`8686958`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/8686958d2d46f52438279d249c1455e4a038ea04): Disable GoSec workflow for the time being.
+* [`bf75f94`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/bf75f945ffdbc872d138c9f6effaf29d64639b7a): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`6672a01`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6672a0174d74b913a5462e1ea5856c3e37c900b2): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`834be43`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/834be43f30a1e68d1da701887e11ee3db623d124): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`40b77b8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/40b77b88163ee6a711bd5770985f7a6fc5528ee4): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`e1e7b69`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/e1e7b695b4fc564b4b56a5ece28d674df3bb86a0): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`9749f52`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9749f529e519a8f6978e40f55eeb3b1f4fdbd308): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`6949371`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6949371a0332b730dad43c48c529dfd23714310c): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`157efbe`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/157efbe38e925b53deb4d5b729b650ecbfa014bc): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`9c09697`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/9c096972030ce0d870d2df5100bab7bfb2d37a71): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`7ddd3e8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/7ddd3e86d64d49528e310aa42456420b7f41d2a5): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`d7d77f2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d7d77f292f2f8c2b56fd35419d9d9e01ad774dec): Auto-update `AUTHORS.md` and CHANGELOG on commit.
+* [`2c282c8`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2c282c8e863ab3527dcc605ac3a74ce3a28c026e): Work on adding automated OpenTofu testing.
+* [`a20e1bf`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a20e1bfaa2eea228abca619bc81840b4ee303ef1): Work on adding automated OpenTofu testing.
+* [`82583e7`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/82583e7bb9128268e702e65b5a9a90ed1f69b6f7): Work on adding automated OpenTofu testing.
+* [`5d9cd26`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/5d9cd26136cebc600044b527874a97d6847ff641): Work on adding automated OpenTofu testing.
+* [`2758ec4`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/2758ec4de8a6cfa8c99859786f43e526c83fa843): Work on adding automated OpenTofu testing.
+* [`92c5e44`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/92c5e440d9425fb83c11bf9ca403f2b85b74c6a5): Work on adding automated OpenTofu testing.
+* [`ca1650f`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ca1650f2f2e9737a6635851bd19795e2d1b22908): Work on adding automated OpenTofu testing.
+* [`ae243c3`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/ae243c36dba8429a3606b223495d2f94ec5b82e9): Work on adding automated OpenTofu testing.
+* [`56501ef`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/56501ef5e2e26ec6ca6c1c06a1aa1eb7987cb280): Work on adding automated OpenTofu testing.
+* [`4a1e899`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/4a1e899979c9a3593fd741484bdf1e8b3febfe4c): Work on adding automated OpenTofu testing.
+* [`a8b9724`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/a8b97249bf45c2fc71fc6d32ffc6470a5b3dc5c3): Work on adding automated OpenTofu testing.
+* [`d374a8c`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/d374a8c42fa2e3c20f410762f7369d41088bad6e): Work on adding automated OpenTofu testing.
+* [`44c7648`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/44c76484bc48005d0484162a43bb5efa2170f724): Work on adding automated OpenTofu testing.
+* [`b5f2b8e`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/b5f2b8e0382900ef4a85f0e5e0052c066b9da624): Work on adding automated OpenTofu testing.
+* [`6be7398`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/6be7398843e0a757ab4f0308a175843d8603c829): Work on adding automated OpenTofu testing.
+* [`66abdf2`](https://github.com/northwood-labs/terraform-provider-corefunc/commit/66abdf213d2f88f3ee0e3d44b26dd0b557b25005): Work on adding automated OpenTofu testing.
